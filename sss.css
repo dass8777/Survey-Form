@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-image: url(https://raw.githubusercontent.com/lasjorg/fcc-form-example-image/master/67103817-7c51e200-f18b-11e9-975f-f74561336a9a-lj.jpg);
+    background-size: cover, 380%;
+    background-attachment: fixed;
+    color: #fff;
+    background-color: rgba(57, 179, 250, 0.7);
+    background-blend-mode: multiply;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 0.45cm;
+    }
+  .heading{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 100px;
+  }
+  #head{
+    font-size: 1.25cm;
+  }
+  #subheading{
+    font-size: 0.45cm;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  #content1{
+    width: 98.5%;
+    margin: auto;
+  }
+  form{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+   }
+   input.box{
+     width: 98.5%;
+     height: 10%;
+     position: relative;
+     bottom: 10px;
+     border: 0;
+     border-radius: 2.5px;
+    }
+    #option1 select{
+      width: 98.5%;
+      height: 10%;
+      position: relative;
+      bottom: 10px;
+      border-radius: 2.5px;
+      border: 0;
+      }
+      #option2 select{
+        width: 98.5%;
+      height: 10%;
+      position: relative;
+      top: 10px;
+      border-radius: 2.5px;
+      border: 0;
+      }
+      #content2 textarea{
+    width: 98.5%;
+    height: 125px;
+    position: relative;
+    bottom: 17px;
+  }
+  button{
+    width: 98.5%;
+    height: 1.5cm;
+    position: relative;
+    top: 11px;
+    background-color: rgb(18, 219, 78);
+    border: none;
+    color: rgb(255, 255, 2555);
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  textarea::placeholder{
+    font-size: 0.37cm;
+    position: relative;
+    top: 2px;
+    left: 5px;
+    width: 70%;
+  }
+  input::placeholder{
+    font-size: 0.35cm;
+    position: relative;
+    left: 10px;
+    width: 50%;
+    font-weight: 500;
+    }
+  
